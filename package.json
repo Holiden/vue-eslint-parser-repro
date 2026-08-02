@@ -1,0 +1,15 @@
+{
+  "name": "vue-eslint-parser-repro",
+  "version": "1.0.0",
+  "description": "Reproduction: scope rules are silently skipped in SFC with both <script> and <script setup>",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^8.60.0",
+    "eslint": "^9.39.0",
+    "vue-eslint-parser": "^10.4.0"
+  }
+}
